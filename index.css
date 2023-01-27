@@ -1,0 +1,103 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+ background: #23252C;
+ color: white;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Main container Styles*/
+.main-container{
+ position: relative;
+ background: #1A1B21;
+ height: 780px;
+ width: 317px;
+ margin: auto;
+ margin-top: 10vh;
+}
+/* Info Styles*/
+.profile-image{
+ width: 317px;
+ height: 317px;
+ background-image: url("./images/bard.PNG");
+ background-size: 317px;
+ overflow: hidden;
+}
+.info-container > h1{
+ font-size: 25px;
+ font-weight: bold;
+ margin-top:10px;
+}
+.info-container > p{
+ color: #F3BF99;
+ margin-bottom: 10px;
+}
+.info-container > small{
+ margin-bottom: 10px;
+}
+.info-container{
+ text-align: center;
+}
+.button-containers{
+ margin-top: 20px;
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
+}
+.button-containers >button{
+ width: 40%;
+ height: 40px;
+ display: flex;
+ align-items: center;
+ padding:5px 18px;
+ justify-content: space-around;
+ border: none;
+ border-radius: 7px;
+}
+.button-containers >button >img{
+ height: 25px;
+}
+.email-btn{
+ background: white;
+}
+.button-containers p{
+ font-weight:bold;
+ font-size: 14px;
+}
+.linked-btn{
+ background: #5093E2;
+}
+/* main content styles*/
+.main-content{
+ padding: 20px;
+ padding-bottom: 0;
+}
+.main-content >h1 {
+ font-size: 18px;
+ font-weight: bold;
+}
+.main-content >p {
+ font-size: 13px;
+ font-weight:normal;
+ margin-top: 10px;
+}
+
+/* footer styles */
+
+.footer-container{
+ width: 100%;
+ height: 70px;
+ background-color: #161619;
+ position: absolute;
+ bottom: 0;
+}
+.image-container >img{
+ width: 35px;
+ border-radius: 7px;
+ margin-right: 20px;
+ margin-top: 15px;
+}
+.image-container{
+ margin-left:15%;
+}
